@@ -1,0 +1,62 @@
+Dependencies for Project 'SpaceInvaders', Target 'SpaceInvaders': (DO NOT MODIFY !)
+F (.\startup.s)(0x57018D78)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\Nokia5110.c)(0x5DB47D84)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
+I (Nokia5110.h)(0x5B39DF12)
+I (..//tm4c123gh6pm.h)(0x51D45492)
+F (.\random.s)(0x5B34D9DA)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\random.lst --xref -o .\random.o --depend .\random.d)
+F (.\SpaceInvaders.c)(0x5DB745F0)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\spaceinvaders.o --omf_browse .\spaceinvaders.crf --depend .\spaceinvaders.d)
+I (..//tm4c123gh6pm.h)(0x51D45492)
+I (Nokia5110.h)(0x5B39DF12)
+I (Random.h)(0x54A1177A)
+I (TExaS.h)(0x569B5526)
+I (Button.h)(0x5DB74264)
+I (Slidepot.h)(0x5DB4B0B5)
+I (LED.h)(0x5DB73D25)
+I (Sound.h)(0x5346505A)
+I (Sprite.h)(0x5DB7114E)
+F (.\TExaS.c)(0x569B5546)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\texas.o --omf_browse .\texas.crf --depend .\texas.d)
+I (TExaS.h)(0x569B5526)
+F (.\DAC.c)(0x5DB744A1)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
+I (DAC.h)(0x5DB08827)
+I (..//tm4c123gh6pm.h)(0x51D45492)
+F (.\Sound.c)(0x5DB45992)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\sound.o --omf_browse .\sound.crf --depend .\sound.d)
+I (DAC.h)(0x5DB08827)
+I (Timer0.h)(0x5DB06E90)
+I (..//tm4c123gh6pm.h)(0x51D45492)
+I (Sound.h)(0x5346505A)
+F (.\Timer0.c)(0x5DB45F02)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\timer0.o --omf_browse .\timer0.crf --depend .\timer0.d)
+I (Timer0.h)(0x5DB06E90)
+I (..//tm4c123gh6pm.h)(0x51D45492)
+F (.\Button.c)(0x5DB7425E)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\button.o --omf_browse .\button.crf --depend .\button.d)
+I (Button.h)(0x5DB74264)
+I (LED.h)(0x5DB73D25)
+I (Sound.h)(0x5346505A)
+I (Sprite.h)(0x5DB7114E)
+I (..//tm4c123gh6pm.h)(0x51D45492)
+F (.\ADC.c)(0x5DB45B28)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (ADC.h)(0x5DB45B36)
+I (..//tm4c123gh6pm.h)(0x51D45492)
+F (.\Timer2.c)(0x5DB4910A)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\timer2.o --omf_browse .\timer2.crf --depend .\timer2.d)
+I (Timer2.h)(0x5DB45E87)
+I (..//tm4c123gh6pm.h)(0x51D45492)
+F (.\Slidepot.c)(0x5DB5C973)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\slidepot.o --omf_browse .\slidepot.crf --depend .\slidepot.d)
+I (Slidepot.h)(0x5DB4B0B5)
+I (ADC.h)(0x5DB45B36)
+I (Timer2.h)(0x5DB45E87)
+F (.\Timer1.c)(0x5DB49232)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\timer1.o --omf_browse .\timer1.crf --depend .\timer1.d)
+I (Timer1.h)(0x5DB48EB2)
+I (..//tm4c123gh6pm.h)(0x51D45492)
+F (.\Sprite.c)(0x5DB74B9E)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\sprite.o --omf_browse .\sprite.crf --depend .\sprite.d)
+I (Sprite.h)(0x5DB7114E)
+I (Sound.h)(0x5346505A)
+I (Nokia5110.h)(0x5B39DF12)
+I (Timer1.h)(0x5DB48EB2)
+I (SysTick.h)(0x5DB5C471)
+I (Random.h)(0x54A1177A)
+I (..//tm4c123gh6pm.h)(0x51D45492)
+F (.\SysTick.c)(0x5DB5C57D)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\systick.o --omf_browse .\systick.crf --depend .\systick.d)
+I (SysTick.h)(0x5DB5C471)
+I (..//tm4c123gh6pm.h)(0x51D45492)
+F (.\LED.c)(0x5DB740D9)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (LED.h)(0x5DB73D25)
+I (..//tm4c123gh6pm.h)(0x51D45492)
