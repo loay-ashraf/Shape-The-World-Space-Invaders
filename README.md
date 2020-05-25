@@ -3,4 +3,4 @@ Space Invaders game implementation as a part of Shape The World: Multi-Threaded 
 
 Course link: https://www.edx.org/course/embedded-systems-shape-the-world-multi-threaded-in
 
-Game demo: https://www.youtube.com/watch?v=XjWOL7peTL8
+Game demo: https://youtu.be/XjWOL7peTL8
